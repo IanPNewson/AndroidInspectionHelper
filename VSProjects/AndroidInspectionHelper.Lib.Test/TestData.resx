@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AndroidManifest.xml" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="29" android:versionName="1.9" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="abdelrahman.wifianalyzerpro" platformBuildVersionCode="29" platformBuildVersionName="1.9"&gt;
+  &lt;uses-sdk android:minSdkVersion="28" android:targetSdkVersion="28"/&gt;
+  &lt;uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/&gt;
+  &lt;uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/&gt;
+
+  &lt;application android:theme="type1/2131624141" android:label="type1/2131558440" android:icon="type1/2131492866" android:allowBackup="true" android:supportsRtl="false" android:networkSecurityConfig="type1/2131755009" android:roundIcon="type1/2131492867" android:appComponentFactory="androidx.core.app.CoreComponentFactory"&gt;
+    &lt;uses-library android:name="org.apache.http.legacy" android:required="false"/&gt;
+    &lt;meta-data android:name="com.google.android.gms.version" android:value="type1/2131296264"/&gt;
+    &lt;provider android:name="androidx.core.content.FileProvider" android:exported="false" android:authorities="abdelrahman.wifianalyzerpro.fileprovider" android:grantUriPermissions="true"&gt;
+      &lt;meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="type1/2131755008"/&gt;
+    &lt;/provider&gt;
+    &lt;activity android:label="type1/2131558440" android:name="abdelrahman.wifianalyzerpro.MainActivity" android:configChanges="0x4a0"&gt;
+      &lt;intent-filter&gt;
+        &lt;action android:name="android.intent.action.MAIN"/&gt;
+        &lt;category android:name="android.intent.category.LAUNCHER"/&gt;
+      &lt;/intent-filter&gt;
+    &lt;/activity&gt;
+    &lt;activity android:theme="type1/2131624143" android:name="abdelrahman.wifianalyzerpro.InfoActivity"/&gt;
+    &lt;activity android:theme="type1/2131624143" android:name="abdelrahman.wifianalyzerpro.ProActivity"/&gt;
+    &lt;activity android:theme="type1/16973839" android:name="com.google.android.gms.ads.AdActivity" android:exported="false" android:configChanges="0xfb0"/&gt;
+    &lt;receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false"/&gt;
+    &lt;receiver android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES" android:enabled="true" android:exported="true"&gt;
+      &lt;intent-filter&gt;
+        &lt;action android:name="com.android.vending.INSTALL_REFERRER"/&gt;
+      &lt;/intent-filter&gt;
+    &lt;/receiver&gt;
+    &lt;service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false"/&gt;
+    &lt;service android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false"/&gt;
+    &lt;service android:name="com.google.firebase.components.ComponentDiscoveryService" android:exported="false"&gt;
+      &lt;meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/&gt;
+      &lt;meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/&gt;
+    &lt;/service&gt;
+    &lt;receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true"&gt;
+      &lt;intent-filter&gt;
+        &lt;action android:name="com.google.android.c2dm.intent.RECEIVE"/&gt;
+      &lt;/intent-filter&gt;
+    &lt;/receiver&gt;
+    &lt;provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="abdelrahman.wifianalyzerpro.firebaseinitprovider" android:initOrder="100"/&gt;
+    &lt;activity android:theme="type1/16973840" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false"/&gt;
+  &lt;/application&gt;
+&lt;/manifest&gt;</value>
+  </data>
+  <data name="HierarchyXml" xml:space="preserve">
+    <value>&lt;hierarchy rotation="0"&gt;
+  &lt;node index="123" text="the text" resource-id="the id" class="the class" package="the package" content-desc="the content description" checkable="true" checked="true" clickable="true" enabled="true" focusable="true" focused="true" scrollable="true" long-clickable="true" password="true" selected="true" bounds="[1,2][3,4]"&gt;
+    &lt;node index="0" text="" resource-id="com.android.systemui:id/op_aod_bg" class="android.view.View" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][1080,2197]" /&gt;
+    &lt;node index="1" text="" resource-id="com.android.systemui:id/op_aod_container" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][1080,2197]"&gt;
+      &lt;node index="0" text="" resource-id="com.android.systemui:id/aod_scrim" class="android.view.View" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][1080,2197]" /&gt;
+      &lt;node index="1" text="" resource-id="com.android.systemui:id/op_aod_view" class="android.widget.RelativeLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][1080,2197]"&gt;
+        &lt;node index="0" text="" resource-id="com.android.systemui:id/op_aod_clock_container" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][1080,911]"&gt;
+          &lt;node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[252,336][827,911]"&gt;
+            &lt;node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[252,336][827,911]"&gt;
+              &lt;node index="0" text="" resource-id="com.android.systemui:id/analog_background" class="android.widget.ImageView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[252,336][827,911]" /&gt;
+              &lt;node index="1" text="" resource-id="com.android.systemui:id/analog_hour" class="android.view.View" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[252,336][827,911]" /&gt;
+              &lt;node index="2" text="" resource-id="com.android.systemui:id/analog_min" class="android.view.View" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[252,336][827,911]" /&gt;
+              &lt;node index="3" text="" resource-id="com.android.systemui:id/analog_dot" class="android.view.View" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[252,336][827,911]" /&gt;
+              &lt;node index="4" text="" resource-id="com.android.systemui:id/analog_outer" class="android.view.View" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[252,336][827,911]" /&gt;
+            &lt;/node&gt;
+          &lt;/node&gt;
+        &lt;/node&gt;
+        &lt;node index="1" text="" resource-id="com.android.systemui:id/op_aod_system_info_container" class="android.widget.LinearLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,911][1080,1414]"&gt;
+          &lt;node index="0" text="" resource-id="com.android.systemui:id/slice_info_container" class="android.widget.LinearLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[281,1016][798,1140]"&gt;
+            &lt;node index="0" text="" resource-id="com.android.systemui:id/slice_primary_container" class="android.widget.LinearLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[307,1016][798,1081]"&gt;
+              &lt;node index="0" text="" resource-id="com.android.systemui:id/slice_icon" class="android.widget.ImageView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[307,1021][362,1076]" /&gt;
+              &lt;node index="1" text="Poisonous Protege" resource-id="com.android.systemui:id/slice_primary" class="android.widget.TextView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[373,1016][798,1081]" /&gt;
+            &lt;/node&gt;
+            &lt;node index="1" text="Unknown artist" resource-id="com.android.systemui:id/slice_secondary" class="android.widget.TextView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[307,1098][516,1140]" /&gt;
+          &lt;/node&gt;
+          &lt;node index="1" text="" resource-id="com.android.systemui:id/battery_container" class="android.widget.LinearLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[477,1245][603,1312]"&gt;
+            &lt;node index="0" text="46%" resource-id="com.android.systemui:id/percentage" class="android.widget.TextView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[477,1245][566,1309]" /&gt;
+            &lt;node index="1" text="" resource-id="com.android.systemui:id/battery" class="android.widget.ImageView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[579,1258][603,1297]" /&gt;
+          &lt;/node&gt;
+          &lt;node index="2" text="" resource-id="com.android.systemui:id/notification_icon_area_inner" class="android.widget.LinearLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[382,1349][697,1414]"&gt;
+            &lt;node index="0" text="" resource-id="com.android.systemui:id/notificationIcons" class="android.widget.LinearLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[382,1349][611,1414]"&gt;
+              &lt;node index="0" text="" resource-id="" class="android.widget.ImageView" package="com.android.systemui" content-desc="Android System notification: Wireless debugging connected" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[382,1354][437,1409]" /&gt;
+              &lt;node index="1" text="" resource-id="" class="android.widget.ImageView" package="com.android.systemui" content-desc="Gmail notification: 2 new messages" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[469,1354][524,1409]" /&gt;
+              &lt;node index="2" text="" resource-id="" class="android.widget.ImageView" package="com.android.systemui" content-desc="Google Play services notification: Account action required" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[556,1354][611,1409]" /&gt;
+            &lt;/node&gt;
+            &lt;node index="1" text="+1" resource-id="com.android.systemui:id/moreIcon" class="android.widget.TextView" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[643,1349][697,1414]" /&gt;
+          &lt;/node&gt;
+        &lt;/node&gt;
+      &lt;/node&gt;
+    &lt;/node&gt;
+  &lt;/node&gt;
+&lt;/hierarchy&gt;</value>
+  </data>
+</root>
