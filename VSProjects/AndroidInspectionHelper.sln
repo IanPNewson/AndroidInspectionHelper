@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndroidInspectionHelper.Lib", "..\AndroidInspectionHelper.Lib\AndroidInspectionHelper.Lib.csproj", "{423C23CC-D458-4D61-A72F-BA2B8CF242AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndroidInspectionHelper.Lib", ".\AndroidInspectionHelper.Lib\AndroidInspectionHelper.Lib.csproj", "{423C23CC-D458-4D61-A72F-BA2B8CF242AC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndroidInspectionHelper.Lib.Test", "..\AndroidInspectionHelper.Lib.Test\AndroidInspectionHelper.Lib.Test.csproj", "{EE54EB7C-C244-401E-B5A0-8D8BD41C6010}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndroidInspectionHelper.Lib.Test", ".\AndroidInspectionHelper.Lib.Test\AndroidInspectionHelper.Lib.Test.csproj", "{EE54EB7C-C244-401E-B5A0-8D8BD41C6010}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AxmlDecoder", "..\AxmlDecoder\AxmlDecoder.csproj", "{98B12A81-7C88-410D-A435-81869DAFC32B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AxmlDecoder", ".\AxmlDecoder\AxmlDecoder.csproj", "{98B12A81-7C88-410D-A435-81869DAFC32B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewTreeVisualiser", "..\ViewTreeVisualiser\ViewTreeVisualiser.csproj", "{DC127306-E503-4AF9-9BDB-88AF92907421}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewTreeVisualiser", ".\ViewTreeVisualiser\ViewTreeVisualiser.csproj", "{DC127306-E503-4AF9-9BDB-88AF92907421}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

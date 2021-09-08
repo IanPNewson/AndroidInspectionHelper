@@ -2,10 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <PreBuildEvent />
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\AndroidProjects\AndroidTestStudioHelper\app\release\app-release.apk" Link="AndroidHelper\AndroidTestStudioHelper.apk">
+    <None Include="..\..\AndroidProjects\AndroidInspectionHelper\app\release\app-release.apk" Link="AndroidHelper\AndroidInspectionHelper.apk">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
@@ -31,5 +32,21 @@
       <LastGenOutput>Android.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
+
+  <Target Name="AndroidInspectionHelperApkBuild"
+    Inputs="..\..\AndroidProjects\AndroidInspectionHelper\app\src\main\java\**\.kt,..\..\AndroidProjects\AndroidInspectionHelper\app\src\**\.xml"
+    Outputs="..\..\AndroidProjects\AndroidInspectionHelper\app\release\app-release.apk">
+
+    <SetEnv Name="_JAVA_OPTIONS" Value="-Xmx512M" />
+    <Error Text="$(_JAVA_OPTIONS)" />
+    <Exec
+      Command="..\..\AndroidProjects\AndroidInspectionHelper\gradlew.bat release"
+      WorkingDirectory="..\..\AndroidProjects\AndroidInspectionHelper\" />
+
+  </Target>
+
+  <Target Name="GenerateExternalDependencies" BeforeTargets="BeforeBuild">
+    <CallTarget Targets="AndroidInspectionHelperApkBuild" />
+  </Target>
 
 </Project>
